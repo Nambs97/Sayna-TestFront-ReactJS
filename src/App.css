@@ -36,3 +36,444 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/***WEB***/
+
+/*******************/
+/**==   SHARED  ==**/
+/*******************/
+h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #418dff;
+  margin-bottom: 15px;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.section-header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*******************/
+/**== SECTION 1 ==**/
+/*******************/
+
+/* TOP */
+
+.top-background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  overflow: hidden;
+  margin-right: 6%;
+}
+
+.top-background-image img {
+  width: 900px;
+  position: relative;
+  top: -225px;
+  right: -150px;
+}
+
+.navbar {
+  border-bottom:1px solid #ccc;
+  padding-left: 100px;
+}
+
+.introduction {
+  height: 500px;
+  padding-left: 100px;
+}
+
+.introduction-button {
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(to bottom right, #f6d365 0%, #fda085 20%, #f4107a 100%);
+  transition: 0.5s;
+  border: 0px;
+}
+
+.introduction-button:active {
+  background-image: linear-gradient(to bottom right, #f4107a 0%, #fda085 80%, #f6d365 100%);
+  /*transition: 0.5s;*/
+  color: black;
+}
+
+.introduction-button:hover {
+  background-image: linear-gradient(to bottom right, #f4107a 0%, #fda085 80%, #f6d365 100%);
+  /*transition: 0.5s;*/
+  color: black;
+}
+
+.introduction-button:focus {
+  background-image: linear-gradient(to bottom right, #f4107a 0%, #fda085 80%, #f6d365 100%);
+  /*transition: 0.5s;*/
+  color: black;
+}
+
+.section1-top-ending {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+
+/* BOTTOM */
+
+.bottom-background-image {
+  position: absolute;
+  top: 800px;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.bottom-background-image img {
+  width: 80%;
+}
+
+.advantages-list {
+  margin-top: 25px;
+  list-style-image: url('./assets/img/tick.png');
+}
+
+.advantages-list-item-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.advantages-list-content {
+  margin-left: -10px;
+}
+
+.advantages-list-title {
+  text-transform: uppercase;
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
+
+.advantages-list-icon {
+  width: 50px;
+}
+
+
+/*******************/
+/**== SECTION 2 ==**/
+/*******************/
+
+.section2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.insurance-card {
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 275px;
+  height: 275px;
+  margin: auto;
+}
+
+.insurance-icon {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.insurance-icon img {
+  vertical-align: middle;
+}
+
+.insurance-title {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.insurance-card-container {
+  margin-bottom: 30px;
+}
+
+
+/*******************/
+/**== SECTION 3 ==**/
+/*******************/
+
+.section3 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.claim-card {
+  text-align: center;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 275px;
+  height: 275px;
+  margin: auto;
+}
+
+.claim-icon {
+  padding-top: 5px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.claim-icon h1 {
+  vertical-align: middle;
+  font-size: 3.5rem;
+}
+
+.claim-title {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.claim-separator {
+  height: 275px;
+  margin-left: 24px;
+}
+
+.claim-separator img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+/*******************/
+/**== SECTION 4 ==**/
+/*******************/
+
+.section4 {
+  height: 600px;
+  background-image: url(./assets/img/Composed-layer-2.png);
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: 250px 75px;
+}
+
+.quotes-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -30px;
+}
+
+.quotes-icon {
+  height: 35px;
+  margin-bottom: 30px;
+}
+
+.quotes-content {
+  font-weight: 100;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.quotes-author-name {
+  font-size: 1.1rem;
+  color: #418dff;
+}
+
+
+/*******************/
+/**== SECTION 5 ==**/
+/*******************/
+
+.guarantee-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px lightgray, -1px -1px 10px lightgray;
+}
+
+.guarantee-icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -55px;
+}
+
+.guarantee-card-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.guarantee-title {
+  font-size: 2rem;
+}
+
+.guarantee-details {
+  font-size: 0.8rem;;
+}
+
+.guarantee-card-button-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.guarantee-card-button {
+  background-color: #26cfa2;
+  border: 0px solid #14ca9a;
+  height: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 1px 1px 5px green;
+}
+
+
+
+/*******************/
+/**== SECTION 6 ==**/
+/*******************/
+
+
+.pricing-card {
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 275px;
+  height: 450px;
+  box-shadow: 5px 5px 10px lightgray, -1px -1px 3px lightgray;
+}
+
+.pricing-card.active {
+  height: 475px;
+}
+
+.pricing-title {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.pricing-icon {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.pricing-badge-icon {
+  float: right;
+  color:  orangered;
+}
+
+.pricing-badge-text {
+  font-size: 0.7rem;
+  margin-top: -15px;
+  color:  orangered;
+}
+
+.pricing-details {
+  margin-top: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.pricing-details-item {
+  margin-bottom: 10px;
+}
+
+.pricing-details-item-icon {
+  width: 15px;
+}
+
+.pricing-details-item-text {
+  font-size: 0.8rem;
+}
+
+.pricing-details-item-button {
+  font-size: 0.8rem;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.pricing-hint {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section6 {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url(./assets/img/Composed-layer-3.png);
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-position: 0px -10px;
+}
+
+
+
+/*******************/
+/**== SECTION 7 ==**/
+/*******************/
+
+.section7 {
+  width: 600px;
+  margin: auto
+}
+
+/*******************/
+/**== SECTION 8 ==**/
+/*******************/
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 15px;
+}
